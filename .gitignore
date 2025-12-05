@@ -43,7 +43,9 @@ tsconfig.tsbuildinfo
 # --- OS files ---
 Thumbs.db
 
-# --- Projects (each project is an external repo) ---
+# --- Projects&shared (each project & shared lib is an external repo) ---
 projects/*
 !projects/.gitkeep
+shared/*
+!shared/.gitkeep
 
