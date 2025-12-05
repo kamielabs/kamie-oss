@@ -7,24 +7,26 @@
 
 ## **1. Objet**
 
-Le présent Accord de Confidentialité (« NDA ») a pour objet de protéger les informations confidentielles communiquées par **KamieLabs**, dans le cadre de l’étude, de la discussion ou de la participation éventuelle aux projets logiciels (WSC, WSO, Kloud, Kamie.app, etc.).
+Le présent Accord de Confidentialité (« NDA ») a pour objet d’encadrer les échanges d’informations entre KamieLabs et le Bénéficiaire, dans le cadre de discussions, d’évaluations techniques ou d’une éventuelle collaboration aux projets logiciels de KamieLabs (WSC, WSO, Kloud, Kamie.app, etc.).
 
-En acceptant le présent NDA, le Bénéficiaire s'engage à préserver la confidentialité de toutes les informations communiquées, sous quelque forme que ce soit.
+Les deux parties peuvent être amenées à partager des informations dans le cadre de ces échanges.
+Cependant, les éléments liés à l’architecture, la vision, la stratégie, le code source, les documents internes et l’ensemble des ressources non publiques de KamieLabs demeurent des Informations Confidentielles protégées, dont la divulgation est strictement encadrée.
+
+En acceptant le présent NDA, le Bénéficiaire s'engage à préserver la confidentialité de toutes les informations communiquées par KamieLabs, sous quelque forme que ce soit.
 
 ---
 
 ## **2. Définition des Informations Confidentielles**
 
-Sont considérées comme « Informations Confidentielles » **toutes informations**, qu'elles soient écrites, orales, visuelles, techniques, conceptuelles ou stratégiques, notamment mais sans limitation :
+Sont considérées comme « Informations Confidentielles » toutes informations, qu'elles soient écrites, orales, visuelles, techniques, conceptuelles ou stratégiques, notamment mais sans limitation :
 
-* architectures logicielles, infrastructures, workflows internes, designs système ;
-* concepts, idées, algorithmes, process, roadmaps, stratégies commerciales ou techniques ;
-* documents internes, schémas, mockups, notes, messages écrits ou oraux ;
-* éléments liés à Kamie.app, Kloud, WSC, WSO, ou tout produit futur ;
-* noms, marques, terminologies, univers créatif ou concepts associés à KamieLabs ;
-* accès techniques, instructions, configurations, scripts, fichiers ou extraits de code non publics.
-
-Toute information partagée dans le cadre des discussions est **présumée confidentielle**, même si elle n’est pas spécifiquement désignée comme telle.
+* architectures logicielles; infrastructures; workflows internes; designs système.
+* concepts; idées; algorithmes; process; roadmaps; stratégies commerciales ou techniques appliquées aux produits, services ou marchés comparables à ceux de KamieLabs.
+* documents internes; schémas; mockups; messages écrits ou oraux.
+* éléments liés à Kamie.app, Kloud, WSC, WSO ou tout produit futur.
+* noms, marques, terminologies, univers créatif ou concepts associés à KamieLabs.
+* accès techniques; scripts; configurations, instructions, fichiers ou extraits de code non publics.
+* Toute information partagée dans le cadre des discussions est présumée confidentielle; même si elle n’est pas spécifiquement désignée comme telle.
 
 Ne sont exclues que les informations devenues publiques sans faute du Bénéficiaire.
 
@@ -45,25 +47,41 @@ Le Bénéficiaire s’engage à :
 
 ## **4. Interdiction d’Exploitation et de Concurrence**
 
-Le Bénéficiaire s'interdit, pendant la durée du présent NDA et **pendant deux ans après**, de :
+Le Bénéficiaire reste entièrement libre de travailler pour toute entreprise ou projet de son choix.
+Cependant, il s'engage à ne pas utiliser les Informations Confidentielles de KamieLabs pour :
 
-* développer, commercialiser ou contribuer à une solution concurrente ou similaire ;
-* exploiter directement ou indirectement les Informations Confidentielles ;
-* publier un projet, open-source ou non, reposant sur les concepts ou architectures présentées.
+développer, commercialiser ou contribuer à une solution substantiellement similaire,
 
-Cette clause vise spécifiquement à prévenir tout fork conceptuel ou duplicat de la vision KamieLabs.
+créer un produit, service, outil ou architecture reposant sur les éléments confidentiels transmis,
 
----
+publier un projet, open-source ou non, reprenant ou dérivant des concepts, designs, stratégies ou implémentations internes révélées dans le cadre de la collaboration.
 
-## **5. Propriété Intellectuelle**
-
-Toutes les Informations Confidentielles restent la propriété exclusive de KamieLabs.
-
-La divulgation temporaire de ces informations n’accorde **aucun droit**, licence, ou autorisation d’exploitation au Bénéficiaire.
+Cette restriction vise uniquement à protéger la propriété intellectuelle de KamieLabs et ne constitue pas une clause d'exclusivité.
 
 ---
 
-## **6. Retour ou Destruction des Informations**
+## **5. Clause IA**
+
+L’utilisation d’outils d’intelligence artificielle est autorisée pour des questions générales et non liées aux Informations Confidentielles.
+
+Il est strictement interdit de transmettre, copier, coller ou charger du code source, des schémas, des documents internes, des extraits de projet ou tout élément confidentiel de KamieLabs dans une IA publique (ChatGPT, Claude, Gemini, Copilot, etc.).
+
+Si KamieLabs met en place une instance privée ou contrôlée d’un outil IA, le Bénéficiaire devra utiliser exclusivement cette instance pour tout usage lié au projet.
+
+---
+
+## **6. Propriété Intellectuelle**
+
+Toutes les Informations Confidentielles, ainsi que les concepts, architectures, documents, schémas, stratégies ou éléments techniques communiqués dans le cadre de la collaboration, demeurent la propriété exclusive de KamieLabs.
+
+Le Bénéficiaire reste libre d’utiliser ses propres compétences, connaissances générales, savoir-faire ou expériences professionnelles acquises indépendamment de KamieLabs.
+Cependant, il n’acquiert aucun droit, licence ou autorisation d’exploitation sur les Informations Confidentielles elles-mêmes, ni sur les éléments qui en dérivent directement.
+
+Toute réutilisation des Informations Confidentielles en dehors de la collaboration est strictement interdite.
+
+---
+
+## **7. Retour ou Destruction des Informations**
 
 En cas d’arrêt de collaboration ou sur simple demande de KamieLabs, le Bénéficiaire s’engage à :
 
@@ -73,7 +91,7 @@ En cas d’arrêt de collaboration ou sur simple demande de KamieLabs, le Béné
 
 ---
 
-## **7. Durée**
+## **8. Durée**
 
 Le présent NDA :
 
@@ -83,7 +101,7 @@ Le présent NDA :
 
 ---
 
-## **8. Sanctions**
+## **9. Sanctions**
 
 Toute violation du présent NDA pourra entraîner :
 
@@ -94,13 +112,16 @@ Toute violation du présent NDA pourra entraîner :
 
 ---
 
-## **9. Acceptation**
+## **10. Acceptation**
 
 En signant ou acceptant électroniquement ce document, le Bénéficiaire reconnaît avoir lu, compris et accepté l'intégralité des clauses.
 
-**Nom : ________________________________
-Email : ________________________________
-Date : ________________________________
-Signature : ____________________________**
+**Nom : ________________________________**
+
+**Email : ________________________________**
+
+**Date : ________________________________**
+
+**Signature : ____________________________**
 
 ---
