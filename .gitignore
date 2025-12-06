@@ -2,6 +2,17 @@
 # Workspace Kamie OSS – Root .gitignore
 # ===========================
 
+.gitignore
+.husky
+commitlingrc.cjs
+eslint.config.mjs
+package.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+tsconfig.base.json
+tsconfig.node.json
+
+
 # --- Dependencies ---
 node_modules/
 .pnpm-store/
@@ -43,7 +54,7 @@ tsconfig.tsbuildinfo
 # --- OS files ---
 Thumbs.db
 
-# --- Projects (each project is an external repo) ---
-projects/*
-!projects/.gitkeep
+# --- Projects&shared (each project & shared lib is an external repo) ---
+projects
+shared
 
