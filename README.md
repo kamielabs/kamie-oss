@@ -1,105 +1,122 @@
-# **KamieLabs – Open Source Workspace (kamie-oss)**
+# Kamie OSS — Vitrine Officielle du Projet Kamie (WIP)
 
-Ce dépôt contient le **workspace racine obligatoire** pour tous les projets open-source de KamieLabs :
+Ce dépôt est la **vitrine institutionnelle** du projet **Kamie OSS**.
 
-* WSC — Workspace CLI
-* WSO — Workspace Orchestrator
-* Kloud OSS tools
-* Shared libraries
-* Configurations globales
-* Documentation interne
+Il ne contient **aucun code technique**, aucun workspace, aucun module, et
+ne doit jamais être utilisé comme environnement de développement.
 
-Tous les projets OSS KamieLabs **dépendent structurellement de ce workspace**.
+Son rôle unique est d’héberger :
 
----
-
-# 📦 1. Installation du Workspace
-
-### Prérequis
-
-* Node 20+
-* pnpm 9+
-* Linux / macOS recommandés
-
-### Installation
-
-```bash
-git clone git@github.com:kamielabs/kamie-oss.git
-cd kamie-oss
-pnpm install
-```
+- la présentation officielle du projet
+- la documentation publique générale
+- les informations légales
+- les guides contributeurs
+- les instructions pour installer et utiliser les outils Kamie **une fois publiés**
+- les liens vers les dépôts techniques (wsc, shared-core-cli, kamielabs, etc.)
 
 ---
 
-# 🧱 2. Structure
+## ⚠️ État du projet : Work In Progress
 
-```
-kamie-oss/
- ├── projects/         # projets OSS clonés ici (wsc, wso, etc.)
- ├── shared/           # libs transversales
- ├── docs/             # documentation interne + légale
- ├── tsconfig.base.json
- ├── tsconfig.node.json
- └── pnpm-workspace.yaml
-```
+Les outils principaux du projet Kamie sont actuellement en cours de développement.
+En particulier, l’outil maître `wsc` (Workspace CLI) n’est **pas encore** en version publique.
 
----
+Tant que `wsc` n’est pas stabilisé :
 
-# 🚀 3. Ajouter un projet OSS (ex: WSC)
-
-Depuis la racine :
-
-```bash
-cd projects
-git clone git@github.com:kamielabs/wsc.git
-```
-
-Le projet devient automatiquement intégré au workspace.
+- ce dépôt reste volontairement **minimal**
+- aucune structure de workspace n’est fournie ici
+- aucune installation “KamieLabs” n’est disponible
+- les développeurs qui rejoignent le projet passent d’abord par la documentation et un échange direct
 
 ---
 
-# 🧪 4. Scripts généraux
+## 🎯 Rôle de ce dépôt
 
-```bash
-pnpm build     # build multi-projet
-pnpm test      # tests globaux
-pnpm lint      # lint workspace
-```
+`kamie-oss` sert de **point central d’information**, pas de workspace.
 
-Les projets individuels peuvent avoir leurs propres scripts.
+Il fournit :
 
----
+### ✔️ Vision globale
+Architecture, philosophie, objectifs à long terme.
 
-# 🔒 5. Légalité : NDA + CLA
+### ✔️ Documentation publique
+Docs généralistes, concepts, explications haut niveau.
 
-Toute contribution nécessite :
+### ✔️ Cadre légal
+Licences, NDA externes, éléments juridiques.
 
-* **NDA** (confidentialité) → docs/legal/NDA_fr.md
-* **CLA** (cession de droits) → docs/legal/CLA_fr.md
+### ✔️ Guide pour contribuer
+Comment rejoindre le projet, comment participer à KamieLabs une fois WSC prêt,
+comment installer une version packagée ou en développement de la suite Kamie.
 
-Aucune PR ne sera acceptée sans ces documents.
-
----
-
-# 📚 6. Documents importants
-
-* **CONTRIBUTING.md** → règles de contribution
-* **docs/** → documentation interne
-* **shared/** → librairies transversales
-* **projects/** → dossiers projets (vides avant clonage)
+### ✔️ Liens vers les dépôts techniques
+Liste claire et mise à jour lorsque WSC, shared-core-cli, KamieLabs
+et autres repos deviennent publics.
 
 ---
 
-# 🙌 7. Vision
+## 🚫 Ce que ce dépôt **n'est pas**
 
-KamieLabs développe :
+- ❌ un workspace KamieLabs  
+- ❌ un projet Node / Python / TypeScript  
+- ❌ un environnement de développement  
+- ❌ un dépôt contenant du code généré  
+- ❌ une copie du runtime Kamie  
 
-* un écosystème souverain
-* un workflow complet (CLI → API → SaaS)
-* une base de code unifiée
-* des outils de productivité pour devs
-* des solutions cloud modernes
-
-Ce workspace est la fondation de tout l’écosystème.
+Aucun outil Kamie ne doit être développé dans ce repo.
+Tout se passera dans les dépôts techniques dédiés, et/ou généré automatiquement par `wsc`.
 
 ---
+
+## 🚧 Dépôts techniques (non inclus ici)
+
+Ces repos seront documentés ici lorsque les versions publiques seront prêtes :
+
+- **wsc** — Workspace CLI (l’outil maître qui génère et gère les workspaces)
+- **shared-core-cli** — librairie commune aux outils Kamie
+- **kamielabs** — workspace officiel généré par WSC (ne vit pas dans ce repo)
+- **autres outils** — listés ultérieurement
+
+---
+
+## 📦 Installation & Dev (à venir)
+
+Lorsque `wsc` sera publié, ce dépôt fournira :
+
+- un **HowTo simple** pour installer une version packagée  
+- un **HowTo dev** pour ceux qui veulent contribuer à KamieLabs  
+- les **prérequis système**  
+- la procédure pour installer la **version dev** de `wsc` localement  
+- les commandes pour générer son premier workspace KamieLabs  
+
+---
+
+## 📚 Documentation
+
+La documentation publique est disponible dans `./docs/`.  
+Elle sera enrichie progressivement :
+
+- architecture générale
+- fonctionnement conceptuel
+- guides contributeurs
+- documentation légale
+
+---
+
+## 🤝 Participer
+
+Pour le moment, la contribution technique se fait **sur invitation**  
+(le socle WSC n’étant pas encore figé).
+
+Ce dépôt reste cependant ouvert aux discussions, feedbacks,
+et propositions portant sur :
+
+- la vision du projet  
+- la documentation  
+- la structure globale Kamie OSS  
+
+---
+
+## 📜 Licence
+
+En cours de rédaction.
